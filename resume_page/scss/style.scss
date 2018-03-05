@@ -1,0 +1,42 @@
+@import 'vendors/_bootstrap.scss';
+
+
+body {
+    padding-bottom: 0px;
+    background: #fdf7d7;
+}
+
+.container-main {
+    margin-top: 80px;
+    padding: 0 30px 30px 30px;
+    background: #fff;
+}
+
+#img1 {
+    margin-top: -80px;
+}
+
+#img2 {
+    margin-top: -30px;
+}
+
+.image1 {
+    display: block;
+    margin: auto;
+}
+
+.container-main h1 {
+    text-align: center;
+}
+
+#block-2 ul li img {
+    width: 7%;
+}
+
+footer {
+    background: #4d84fc;
+    color: white;
+    text-align: center;
+    font-size: 18px;     
+    padding-bottom : -10px;
+}

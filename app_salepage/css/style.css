@@ -1,0 +1,32 @@
+body {
+    padding-top: 50px;
+}
+
+.em-text {
+    color: #1caa98 !important;
+}
+
+.app-btn {
+    width: 40%;
+    margin-right: 30px;
+}
+.jumbotron {
+    background: url(../img/site_showcase_bg.jpg);
+    height: 500px;
+}
+.iphone {
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 95%;
+    height: 95%;
+}
+
+img.img3 {
+    width: 100%;
+    padding : 3px;
+    border : 1px solid #ccc;
+}
+
+.site1 {
+    background: url(../img/background2.jpg);
+}

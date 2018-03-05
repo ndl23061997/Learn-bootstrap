@@ -1,0 +1,167 @@
+header {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+}
+
+header .logo-header {
+    padding: 15px;
+    float: left;
+    width: 27%;
+}
+
+header form {
+    float: right;
+    color: white;
+    padding-top: 25px;
+}
+
+#wall-title {
+    background: #04519b;
+}
+
+.comment-avatar {
+    width: 40px;
+}
+
+.my-friend li {
+    list-style: none;
+    float: left;
+    display: inline;
+    padding: 5px;
+    
+}
+
+.my-friend  img {
+    width: 45px;
+    margin: 10px;
+}
+
+.groups {
+    list-style-type: none;
+    float: left;
+    display: inline;
+}
+
+.groups img {
+    margin-right: -10px;
+    width: 60%;
+}
+
+.groups p {
+    float: left;
+}
+
+.fr .form-group .form-control {
+    width: 100%;
+}
+
+.members .member-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #04519b;
+    text-align: center;
+    color: white;
+}
+
+.bubble {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pointer {
+    padding: 8px;
+}
+.form-group .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+.comment {
+    padding: 3px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.comment img {
+    padding: 3px;
+    background: #fff;
+}
+.my-friend .panel-heading {
+    color: #fff;
+    background: #04519b;
+}
+.groups .panel-heading {
+    color: #fff;
+    background: #04519b;
+}
+
+.groups .group-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.my-friend .panel-body button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 991px) {
+    .members p {
+        padding-top: 40px;
+    }
+}
+
+.groups div.group-item {
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.groups .group-item p {
+    width: 100%;
+}
+
+.groups .group-item h4 {
+    color: #04519b; 
+}
+
+#profile {
+    margin: auto;
+}
+
+@media (min-width: 991px) {
+    .profile ul {
+    padding-top: 35px;
+    }
+}
+
+.profile #user-inf {
+    font-size: 18px;
+}
+
+#profile-inf {
+    margin-bottom: 30px;
+}
+
+.photos img {
+    width: 100%;    
+
+}
+
+.photos a {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 23%;
+}
+
+.photos {
+    margin: 0;
+    padding: 0;
+}
