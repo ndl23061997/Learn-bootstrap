@@ -1,0 +1,80 @@
+body {
+    padding-top: 50px;
+}
+
+.em-text {
+    color: #1caa98 !important;
+}
+
+.app-btn {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.jumbotron {
+    background-size: 100%;
+    background-image: url(../img/site_showcase_bg.jpg);
+    height: 500px;
+}
+
+.iphone {
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 80%;
+}
+
+img.img3 {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+#features ul li {
+    font-size: 22px;
+    color: #ccc;
+    list-style: none;
+    list-height: 2.0em;
+}
+
+#features {
+    background: #1caa98;
+    color: #fff;
+    padding: 20px;
+    overflow: auto;
+}
+
+#features img {
+    width: 70%;
+    float: right;
+}
+
+.feauture1 {
+    float: right;
+}
+
+footer {
+    background: #333333;
+    color: #ffffff;
+}
+
+footer ul li {
+    list-style: none;
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+footer p {
+    float: right;
+}
+
+#contactus {
+    background: #1caa98;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+    #logo-iphone {
+        display: none;
+    }
+}
