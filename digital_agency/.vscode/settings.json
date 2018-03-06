@@ -1,0 +1,6 @@
+{
+    "max-line-length" : [
+        true,
+        60
+    ]
+}

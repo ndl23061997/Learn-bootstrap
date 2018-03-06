@@ -9,18 +9,21 @@
     
 
     <title>Starter Template for Bootstrap</title>
-    <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
   </head>
-
+  
+  <!-- begin body -->
   <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
+    
+    <!-- begin navbar -->
     <nav class="navbar navbar-custom navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <i class="fas fa-align-justify fa-2x"></i>
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -34,7 +37,7 @@
               <a href="#page-top"></a>
             </li>
             <li class="page-scroll">
-              <a href="why">Why Us?</a>
+              <a href="#why">Why Us?</a>
             </li>
             <li class="page-scroll">
               <a href="#who">Who Are We?</a>
@@ -48,8 +51,9 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
-
+    </nav> <!-- end navbar -->
+    
+    <!-- begin intro -->
     <selection class="intro">
       <div class="intro-body">
         <div class="container">
@@ -64,8 +68,9 @@
         </div>
       </div>
 
-    </selection>
-
+    </selection> <!-- end intro -->
+    
+    <!-- begin why -->
     <section id="why" class="container content-section">
       <h2 class="text-center">Why Choose Us?</h2>
       <p class="text-center">Here are just a few reasons to choose <strong>Digital Agency</strong> for all 
@@ -148,8 +153,9 @@
           </div>
 
         </div>
-    </section>
-
+    </section> <!-- end why -->
+    
+    <!-- begin who -->
     <section id="who" class="content-section text-center">
       <div class="who-section">
         <div class="container">
@@ -158,23 +164,40 @@
           <a href="#contact" class="btn btn-default">Contact Us Now</a>
         </div>
       </div>
-    </section>
-
+    </section> <!-- end who --> 
+    
+    <!-- begin clients -->
     <section id="clients" class="content-section text-center">
       <div class="container">
         <h2>Our Clients</h2>
-
+        <img src="img/partner1.png" alt="">
+        <img src="img/partner2.png" alt="">
+        <img src="img/partner3.png" alt="">
+        <img src="img/partner4.png" alt="">
+        <img src="img/partner5.png" alt="">
+        <img src="img/partner6.png" alt="">
       </div>
-    </section>
+    </section> <!-- end clients -->
 
-    <section>
+    <!-- begin contact -->
+    <section id="contact" class="content-section text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>Contact Digital Agency</h2>
+        <p>Feel free to shoot us an email any time for any reason. You can also follow us  on Twitter, Facebook and Google+</p>
+        <p>contact@digitalagency.com</p>
+        <ul class="list-inline banner-social-buttons">
+          <li><a href="http://twitter.com/" class="btn btn-default btn-lg"><i class="fab fa-twitter-square"></i><span class="network-name"> Twitter</span></a></li>
+          <li><a href="http://facebook.com/" class="btn btn-default btn-lg"><i class="fab fa-facebook"></i><span class="network-name"> Facebook</span></a></li>
+          <li><a href="https://plus.google.com/" class="btn btn-default btn-lg"><i class="fab fa-google-plus-square"></i><span class="network-name"> Google+</span></a></li>
+        </ul>
+      </div>
+    </section> <!-- end contact -->
 
-    </section>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.js"></script>
-  </body>
+  </body> <!-- end body -->
 </html>
