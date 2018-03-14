@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Starter Template for Bootstrap</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Style   -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="all-body">
+            <!-- Navbar -->
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">AlphaCMS</a>
+                    </div>
+    
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Dashboard</a></li>
+                            <li><a href="pages.html">Pages</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="users.html">Users</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="profile.html">Profile</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="login.html">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="list-group">
+                                <a href="index.html" class="list-group-item active">
+                                   <i class="glyphicon glyphicon-dashboard"></i> Dashboard
+                                </a>
+                                <a href="pages.html" class="list-group-item ">
+                                    <i class="glyphicon glyphicon-file glyphicon"></i> Pages
+                                </a>
+                                <a href="categories.html" class="list-group-item ">
+                                    <i class="glyphicon glyphicon-folder-close"></i> Categories
+                                </a>
+                                <a href="users.html" class="list-group-item ">
+                                    <i class="glyphicon glyphicon-user"></i> User Accounts
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h1 class="page-header"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</h1>
+                            <h3>Latest Pages</h3>
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>Page Titles</th>
+                                    <th>Category</th>
+                                    <th>Author</th>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">Sample page One</a></td>
+                                    <td>Category One</td>
+                                    <td>Nguyen Long</td>
+                                </tr>  
+                                <tr>
+                                    <td><a href="page.html">Sample page Two</a></td>
+                                    <td>Category Two</td>
+                                    <td>John Doe</td>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">Sample page Three</a></td>
+                                    <td>Category Three</td>
+                                    <td>Mary </td>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">Sample page Four</a></td>
+                                    <td>Category Four</td>
+                                    <td>Luffy</td>
+                                </tr>         
+                            </table>
+                            <a href="pages.html" class="btn btn-default">View All Pages</a>
+                            <hr>
+    
+                            <h3>Latest User</h3>
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Group</th>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">Nguyen Long</a></td>
+                                    <td>ndl23061997@gmail.com</td>
+                                    <td>Admin</td>
+                                </tr>  
+                                <tr>
+                                    <td><a href="page.html">John Doe</a></td>
+                                    <td>JohnDoe@gmail.com</td>
+                                    <td>Admin</td>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">James Smith</a></td>
+                                    <td>JamesSmt@gmail.com</td>
+                                    <td>Register </td>
+                                </tr>    
+                                <tr>
+                                    <td><a href="page.html">Sample page Four</a></td>
+                                    <td>M.K.Luffy@gmail.com</td>
+                                    <td>Register</td>
+                                </tr>         
+                            </table>
+                            <a href="users.html" class="btn btn-default">View All User</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+    <footer class="text-center">
+        Copyright &copy; 3 - 2018 , All Right Reversed. 
+    </footer>
+</html>
