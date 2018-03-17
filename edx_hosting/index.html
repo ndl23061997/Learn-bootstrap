@@ -38,15 +38,15 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="Domains.html">Domains</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#login">Login</a>
+            <a href="" data-toggle="modal" data-target="#myModal">Login</a>
           </li>
         </ul>
       </div>
@@ -55,6 +55,48 @@
   </nav>
   <!-- End Navbar -->
 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Login</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success">Sign in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- End Modal -->
   <!-- carousel -->
   <selection>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -142,11 +184,14 @@
         </div>
         <div class="col-md-12">
           <h3>Tên miền miễn phí, Cpanel, PHP, MySQL & FTP</h3>
-          <p>Bạn vẫn còn đăng bối rối vì không biết chọn lựa tên miền nào cho website của bạn? Mỗi tài khoản host miễn phí sẽ
+          <p class="p-1">Bạn vẫn còn đăng bối rối vì không biết chọn lựa tên miền nào cho website của bạn? Mỗi tài khoản host miễn phí sẽ
             được cho tên miền miễn phí. Chỉ cần đăng ký và nhận tên miền miễn phí bạn muốn, không tốt bất kỳ khoản phí nào!
             Chúng tôi có số lượng lớn các tên miền miễn phí dành cho bạn. Không như những nhà cung cấp free hosting khác,
             chúng tôi là nhà cung cấp duy nhất hỗ trợ PHP đầy đủ cho gói host free của mình, với MySQL và Cpanel cực kỳ thân
-            thiện với người dùng. Bạn sẽ có thể upload qua FTP hoặc qua File Manager nền web</p>
+            thiện với người dùng.</p>
+        </div>
+        <div class="col-md-12">
+          <a href="" class="btn btn-default" style="margin: auto auto; display: block; width: 30%; background-color: white; color: black">View Detail</a>
         </div>
       </div>
       <div class="col-md-4 col-md-4-fix">
@@ -156,12 +201,15 @@
           </div>
           <div class="col-md-12">
             <h3>WordPress hosting miễn phí</h3>
-            <p>Host Free WordPress nhanh nhất với 1 click cài đặt tự độn. Nếu bạn tìm kiếm một blog để dùng thử miễn phí? Vậy
+            <p class="p-1">Host Free WordPress nhanh nhất với 1 click cài đặt tự độn. Nếu bạn tìm kiếm một blog để dùng thử miễn phí? Vậy
               bạn đã đến đúng nơi rồi đó! Bạn có thể ngay lập tức tạo web miễn phí, sử dụng free domain và bắt đầu viết blog
               của bạn trong vài phút, tập trung vào nội dung của bạn, vì các vấn đề về công nghệ đều đã được WordPress lo.
               Hãy tự nhiên sử dụng host miễn phí của chúng tôi, không quảng cáo, không giới hạn - upload file qua FTP hoặc
               qua WordPress dashboard, tạo MySQL databases, chạy Cron Job, và nhiều hơn thế nữa. Hãy làm thôi, các webmaster
               của chúng tôi!</p>
+          </div>
+          <div class="col-md-12">
+            <a href="" class="btn btn-default" style="margin: auto auto; display: block; width: 30%; background-color: white; color: black">View Detail</a>
           </div>
         </div>
       </div>
@@ -171,11 +219,103 @@
         </div>
         <div class="col-md-12">
           <h3>Tạo website miễn phí gần như không giới hạn</h3>
-          <p>Khi sử dụng hosting miễn phí tốt nhất của Hostinger, bạn sẽ được cấp 1000 MB dung lượng đĩa và không giới hạn băng
+          <p class="p-1">Khi sử dụng hosting miễn phí tốt nhất của Hostinger, bạn sẽ được cấp 1000 MB dung lượng đĩa và không giới hạn băng
             thông. Không đặt bất kỳ giới hạn về kết nối web là một bước tiến lớn trong việc giúp bạn học tập và sử dụng cho
             mục đích cá nhân. Nhờ vào công nghệ đám mây tiên tiến, bạn có thể dễ dàng học tập, xây dựng và phát triển cùng
             với nền tảng hosting miễn phí tốt nhất của chúng tôi. Nếu bạn đã bắt đầu nghiêm túc. Hãy nâng cấp lên gói Cao
             Cấp và Doanh Nghiệp ngay!</p>
+        </div>
+        <div class="col-md-12">
+          <a href="" class="btn btn-default" style="margin: auto auto; display: block; width: 30%; background-color: white; color: black">View Detail</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price Table -->
+  <section id="price-table">
+    <div class="container">
+      <div class="row" style="margin: auto -30px;">
+        <div class="col-md-3 table-row row">
+          <div class="col-md-12 row1">
+            <h3>WEB HOSTING CÁ NHÂN</h3>
+            <h1>$3.99/</h1>
+            <h1>month</h1>
+            <ul>
+              <li>1 Free Domain</li>
+              <li>10 GB Dung lượng đĩa</li>
+              <li>100 GB Băng Thông</li>
+              <li>1 MySQL Database</li>
+              <li>1 FTP User</li>
+              <li>1 Email Account</li>
+              <li>Easy Website builder</li>
+              <li>Control Panel Mạnh Mẽ</li>
+              <li>Quản lý truy cập thân thiện</li>
+            </ul>
+          </div>
+          <div class="row-btn col-md-12">
+            <a href="" class="btn btn-warning btn-lg">BUY NOW!</a>
+          </div>
+        </div>
+        <div class="col-md-3 table-row row">
+          <div class="col-md-12 row1">
+            <h3>WEB HOSTING CAO CẤP</h3>
+            <h1>$8.88/</h1>
+            <h1>month</h1>
+            <ul>
+              <li>Số website không giới hạn</li>
+              <li>Dung lượng đĩa SSD không giới hạn</li>
+              <li>Băng thông không giới hạn</li>
+              <li>MySQL database không giới hạn</li>
+              <li>FTP user không giới hạn</li>
+              <li> Tài khoản Email không giới hạn</li>
+              <li>Website Builder dễ sử dụng</li>
+              <li>Control PanelMạnh Mẽ</li>
+            </ul>
+          </div>
+          <div class="row-btn col-md-12">
+            <a href="" class="btn btn-warning btn-lg">BUY NOW!</a>
+          </div>
+        </div>
+        <div class="col-md-3 table-row row">
+          <div class="col-md-12 row1">
+            <h3>WEB HOSTING CAO CẤP 2</h3>
+            <h1>$10.99/</h1>
+            <h1>month</h1>
+            <ul>
+              <li>Số website không giới hạn</li>
+              <li>Dung lượng đĩa SSD không giới hạn</li>
+              <li>Băng thông không giới hạn</li>
+              <li>MySQL database không giới hạn</li>
+              <li>FTP user không giới hạn</li>
+              <li>Tài khoản Email không giới hạn</li>
+              <li>Hỗ trợ trực tuyến Chuyên nghiệp</li>
+              <li>Vi xử lý & bộ nhớ 2X</li>
+            </ul>
+          </div>
+          <div class="row-btn col-md-12">
+            <a href="" class="btn btn-warning btn-lg">BUY NOW!</a>
+          </div>
+        </div>
+        <div class="col-md-3 table-row row">
+          <div class="col-md-12 row1">
+            <h3>WEB HOSTING DOANH NGHIỆP</h3>
+            <h1>$13.99/</h1>
+            <h1>month</h1>
+            <ul>
+              <li>Số website không giới hạn</li>
+              <li>Dung lượng đĩa SSD không giới hạn</li>
+              <li>Băng thông không giới hạn</li>
+              <li>MySQL database không giới hạn</li>
+              <li>FTP user không giới hạn</li>
+              <li>Tài khoản Email không giới hạn</li>
+              <li>Hỗ trợ trực tuyến Chuyên nghiệp</li>
+              <li>Vi xử lý & bộ nhớ 2X</li>
+            </ul>
+          </div>
+          <div class="row-btn col-md-12">
+            <a href="" class="btn btn-warning btn-lg">BUY NOW!</a>
+          </div>
         </div>
       </div>
     </div>
