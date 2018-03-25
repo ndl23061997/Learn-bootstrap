@@ -125,12 +125,14 @@ h1,h2,h3 {
 }
 
 footer {
+    display: flex;
+    height: 50px;
     text-align: center;
     background-color: #ccc;
 }
 
 footer p {
-    margin: 0;
+    margin: auto;
 }
 
 .jumbotron-about {
@@ -151,9 +153,63 @@ footer p {
 }
 
 .about-content .col-md-5{
-    overflow: hidden;
+   overflow: hidden;
 }
 
 .about-content .col-md-5 img{
     width: 100%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-50-gray {
+    font-size: 50%;
+    color: gray;
+}
+
+.contact-people .div-img {
+    padding:0 !important;
+    overflow: hidden;
+    width: 100%;
+    height: 222px;
+}
+
+.contact-people img {
+    left: 0;
+    width: 100%;
+}
+.contact-people h1,.contact-people ul,.contact-people p, .contact-people .div-img {
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+
+.text-70 {
+    font-size: 70%;
+}
+#people-all img {
+    width: 100%;
+}
+
+.services-sec {
+    padding: 30px;
+}
+
+.services-sec h1, .services-sec p  {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.services-sec button {
+    margin-left: 0;
+}
+
+.section {
+    padding: 30px;
+}
+
+.tab-pane {
+    display: inline !important;
 }
