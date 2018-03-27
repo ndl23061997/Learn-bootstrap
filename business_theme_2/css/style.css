@@ -1,0 +1,144 @@
+.ctn1 {
+    margin-right: 0;
+}
+.navbar-header {
+    height: 100px;
+}
+
+.navbar-header img {
+    height: 100%;
+}
+
+.navbar-collapse {
+    margin-right: 0;
+    padding-top: 15px;
+}
+
+.navbar-collapse span {
+    font-weight: normal;
+    display: block;
+    font-size:  15px;
+}
+
+.navbar-collapse {
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-nav{
+    border-left: 1px solid rgb(214, 214, 214) !important;
+}
+
+.navbar-nav li{
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.navbar-nav a:hover , .navbar-nav .active a {
+    background: #0383c0 !important;
+    color: white !important;
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.jumbotron-bottom .row .col-md-3 .icon-4x{
+    display: flex;
+}
+
+.jumbotron-bottom .row .col-md-3 span{
+    width: 100%;
+    margin: auto;
+}
+
+.jumbotron-bottom .row .col-md-3 .text-center {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fa-color {
+    color: #0383c0 !important;
+}
+
+.take-a-close-look {
+    padding: 30px 0;
+    background-color: #E58B31;
+    color: white;
+    text-align: center;
+}
+
+.take-a-close-look h1{
+    text-transform: uppercase;
+}
+
+.feauture-text {
+    text-transform: uppercase;
+}
+
+.feauture {
+    padding: 40px;
+}
+
+.feauture img {
+    width: 100%;
+}
+
+.more-feauture {
+
+    color: white;
+    background-color: #0383c0 ;
+}
+
+.more-feauture .feauture-text {
+    padding-top: 2%;
+}
+
+.about-content .row .col-md-5 img {
+    width: 100%;
+}
+
+.contact-people .div-img {
+    padding:0 !important;
+    overflow: hidden;
+    width: 100%;
+    height: 222px;
+}
+
+.contact-people img {
+    left: 0;
+    width: 100%;
+}
+.contact-people h1,.contact-people ul,.contact-people p, .contact-people .div-img {
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+.contact-people .row .col-md-4 span {
+    font-size: 70%;
+    display: block;
+    color: rgb(66, 66, 66);
+}
+
+.contact-people .row{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 0px !important;
+}
+
+.jumbotron-about {
+    margin-top: 100px;
+}
+.services-sec {
+    margin: 10px 30px;
+}
+
+#contact-map {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+footer {
+    background-color: #02abfa;
+    text-align: center;
+}
